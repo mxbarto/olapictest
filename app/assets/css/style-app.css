@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'DINPro-Bold';
+  src: url('fonts/DINPro-Bold.eot');
+  src: url('fonts/DINPro-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/DINPro-Bold.woff') format('woff'), url('fonts/DINPro-Bold.ttf') format('truetype'), url('fonts/DINPro-Bold.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'roboto-regular';
+  src: url('fonts/roboto-regular-webfont.eot');
+  src: url('fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/roboto-regular-webfont.woff') format('woff'), url('fonts/roboto-regular-webfont.ttf') format('truetype'), url('fonts/roboto-regular-webfont.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+.olapic-tools {
+  background: transparent url(../img/divider.png) no-repeat center 45px; }
+
+.olapic-upload {
+  background-image: -webkit-linear-gradient(#ff0000, #ff0000) !important;
+  background-image: linear-gradient(#ff0000, #ff0000) !important;
+  font-family: DINPro-Bold, helvetica, sans-serif !important;
+  font-size: 12px !important;
+  padding: 16px 38px !important;
+  outline: white solid 10px !important; }
+  .olapic-upload:hover {
+    background-image: -webkit-linear-gradient(#000, #000) !important;
+    background-image: linear-gradient(#000, #000) !important; }
+
+.olapic-wall .item {
+  margin: 0 !important;
+  width: 25% !important;
+  height: 240px !important;
+  border: 10px solid #fff !important;
+  background-color: #000 !important; }
+.olapic-wall .olapic-item-media {
+  background-color: #000 !important;
+  cursor: pointer !important;
+  z-index: 10 !important; }
+  .olapic-wall .olapic-item-media:hover {
+    opacity: 0.3 !important; }
+.olapic-wall a.olapic-btn-shopthislook {
+  font-family: DINPro-Bold !important;
+  font-size: 18px !important;
+  height: 25px !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+  background-image: none !important;
+  background: transparent !important;
+  box-shadow: none !important; }
+  .olapic-wall a.olapic-btn-shopthislook::after {
+    border: none !important; }
+
+.olapic-share, .olapic-moreinfo {
+  right: 1000px !important; }
+
+.main-container {
+  max-width: 900px !important; }
+  @media (max-width: 992px) {
+    .main-container {
+      max-width: 100%; } }
+
+.main {
+  display: block !important;
+  height: 100% !important; }
+  @media (max-width: 768px) {
+    .main {
+      display: none !important; } }
+  .main .viewer-previous {
+    width: auto !important; }
+    .main .viewer-previous a {
+      background: url(../img/viewer-sprite.png) 0 270px !important;
+      width: 22px !important;
+      height: 50px !important; }
+      .main .viewer-previous a::before {
+        content: "" !important; }
+  .main .viewer-next {
+    width: auto !important; }
+    .main .viewer-next a {
+      background: url(../img/viewer-sprite.png) 0 221px !important;
+      width: 22px !important;
+      height: 50px !important; }
+      .main .viewer-next a::before {
+        content: "" !important; }
+
+.viewer-container {
+  width: 700px !important;
+  max-width: 700px !important;
+  background-color: transparent !important;
+  padding: 0 !important; }
+  @media (max-width: 992px) {
+    .viewer-container {
+      width: 80% !important; } }
+  .viewer-container .viewer-close {
+    display: block !important;
+    background: url(../img/viewer-sprite.png) 0 101px !important;
+    width: 21px !important;
+    height: 21px !important;
+    top: 20px !important;
+    right: 20px !important; }
+    .viewer-container .viewer-close::before {
+      content: "Close" !important;
+      position: absolute !important;
+      top: -2px;
+      left: -45px;
+      font-family: DINPro-Bold, helvetica, sans-serif !important;
+      font-size: 14px !important;
+      color: #333; }
+  .viewer-container .viewer-column-left {
+    width: 400px !important;
+    background-color: #FFF !important; }
+    @media (max-width: 992px) {
+      .viewer-container .viewer-column-left {
+        width: 100% !important; } }
+    .viewer-container .viewer-column-left .featured-photo {
+      min-height: 0 !important; }
+    .viewer-container .viewer-column-left .olapic-main-image {
+      background-position: 0 0 !important; }
+    .viewer-container .viewer-column-left .report-photo {
+      background: url(../img/viewer-sprite.png) 0 286px !important;
+      display: block !important;
+      width: 18px !important;
+      height: 15px !important; }
+      .viewer-container .viewer-column-left .report-photo::before {
+        content: "" !important; }
+  .viewer-container .viewer-column-right {
+    position: relative !important;
+    width: 300px !important;
+    min-height: 400px !important;
+    background-color: #FFF !important;
+    margin-bottom: 10px !important;
+    padding: 60px 20px 25px 27px !important; }
+    @media (max-width: 992px) {
+      .viewer-container .viewer-column-right {
+        width: 100% !important; } }
+    .viewer-container .viewer-column-right .author-info {
+      position: absolute !important; }
+      .viewer-container .viewer-column-right .author-info img {
+        width: 70px !important;
+        height: 70px !important;
+        margin-right: 17px !important;
+        border-radius: 35px !important; }
+      .viewer-container .viewer-column-right .author-info .icon-source {
+        display: none !important; }
+      .viewer-container .viewer-column-right .author-info .author-names {
+        padding: 0 0 10px !important; }
+        .viewer-container .viewer-column-right .author-info .author-names .author-handlename {
+          width: 160px !important;
+          font-family: DINPro-Bold, helvetica, sans-serif !important;
+          font-size: 12px !important;
+          text-transform: uppercase !important;
+          color: #000 !important; }
+        .viewer-container .viewer-column-right .author-info .author-names .author-realname {
+          display: none !important; }
+    .viewer-container .viewer-column-right .photo-caption {
+      padding: 18px 0 7px 86px !important;
+      font-size: 12px !important; }
+
+.sharing ul {
+  text-align: left !important;
+  padding-left: 86px !important; }
+  .sharing ul li:first-child::after {
+    content: ":"; }
+  .sharing ul li {
+    margin-right: 7px !important;
+    font-family: DINPro-Bold, helvetica, sans-serif !important;
+    font-size: 12px !important;
+    color: #999 !important; }
+    .sharing ul li a {
+      width: 26px !important;
+      height: 26px !important;
+      background-image: url(../img/viewer-sprite.png) !important; }
+      .sharing ul li a.sharing-fb {
+        background-position: 0 80px; }
+      .sharing ul li a.sharing-tw {
+        background-position: 0 56px; }
+      .sharing ul li a.sharing-pi {
+        background-position: 0 29px; }
+      .sharing ul li a::before {
+        content: "" !important; }
+
+.products {
+  margin-top: 15px !important;
+  border-top: 1px solid #999 !important; }
+  .products h3 {
+    font-family: roboto-regular-webfont, helvetica, sans-serif !important;
+    font-size: 16px !important;
+    letter-spacing: 0;
+    padding: 25px 0 12px !important; }
+  .products .products-wrapper {
+    max-width: 200px !important;
+    overflow: visible !important; }
+    .products .products-wrapper .products-list {
+      width: auto !important;
+      overflow: visible !important; }
+      .products .products-wrapper .products-list li {
+        width: 125px !important; }
+        .products .products-wrapper .products-list li .product-list-item {
+          display: block !important;
+          line-height: 0 !important; }
+        .products .products-wrapper .products-list li .product-list-item-image {
+          height: 80px !important;
+          background-color: #fff !important; }
+        .products .products-wrapper .products-list li .product-list-item-title {
+          display: block !important;
+          margin-top: 12px !important;
+          background-color: #ff0000 !important;
+          font-family: DINPro-Bold, helvetica, sans-serif !important;
+          font-size: 12px !important;
+          text-transform: uppercase !important;
+          text-rendering: optimizeLegibility !important;
+          color: #fff !important;
+          padding: 14px 26px !important; }
+          .products .products-wrapper .products-list li .product-list-item-title:hover {
+            background-color: #000 !important; }
+  .products .navigation {
+    display: block !important;
+    background: transparent !important; }
+    .products .navigation a {
+      display: block !important;
+      background: transparent url(../img/viewer-sprite.png) !important;
+      width: 10px !important;
+      height: 17px !important;
+      top: -30px !important;
+      border-radius: 0 !important; }
+      .products .navigation a::before {
+        content: "" !important; }
+      .products .navigation a.products-previous {
+        background-position: 0 118px !important; }
+        .products .navigation a.products-previous:hover {
+          background-position: 0 171px !important; }
+      .products .navigation a.products-next {
+        background-position: 2px 135px !important; }
+        .products .navigation a.products-next:hover {
+          background-position: 2px 153px !important; }
+  .products .left {
+    left: 20px !important; }
+  .products .right {
+    right: 20px !important; }
+
+.newcopyright-olapic {
+  position: static !important; }
+  .newcopyright-olapic a {
+    text-decoration: underline !important;
+    color: #fff !important; }
+    .newcopyright-olapic a:hover {
+      text-decoration: none !important; }
