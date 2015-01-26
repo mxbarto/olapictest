@@ -88,7 +88,6 @@
 .viewer-container {
   width: 700px !important;
   max-width: 700px !important;
-  background-color: transparent !important;
   padding: 0 !important; }
   @media (max-width: 992px) {
     .viewer-container {
@@ -244,6 +243,6 @@
   position: static !important; }
   .newcopyright-olapic a {
     text-decoration: underline !important;
-    color: #fff !important; }
+    color: #a9a9a9 !important; }
     .newcopyright-olapic a:hover {
       text-decoration: none !important; }

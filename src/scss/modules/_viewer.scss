@@ -42,7 +42,6 @@
   }
   width:700px !important;
   max-width: 700px !important;
-  background-color: transparent !important;
   padding: 0 !important;
   .viewer-close{
     display: block !important;
@@ -243,7 +242,7 @@
   position: static !important;
   a{
     text-decoration: underline !important;
-    color: #fff !important;
+    color: #a9a9a9 !important;
     &:hover{
       text-decoration: none !important;
     }
